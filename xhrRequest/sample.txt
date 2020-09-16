@@ -1,0 +1,11 @@
+hello word
+
+AJAX stands for Asynchronous JavaScript And XML. It's a way of retrieving data from a server after a webpage has loaded. Asynchronous means the process that triggers the request runs independently from the source code. Because of that, you have to track and
+ manage the request and its subsequent response.
+
+After completing this lesson, you will be able to:
+
+Make AJAX requests using the XHR object and the fetch API
+Interpret server status codes
+Handle AJAX server responses
+#
