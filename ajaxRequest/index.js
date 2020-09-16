@@ -29,3 +29,13 @@ fetch('./sample.txt')
       title.textContent = text;
       document.body.appendChild(title);
   })
+
+  fetch("./sample2.txt")
+    .then (function(response){
+      return response.text()
+    })
+    .then (function(text){
+      const second = document.querySelector("h1")
+      second.textContent = text;
+      
+    })
